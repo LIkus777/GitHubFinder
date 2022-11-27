@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/html_url"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="html_url"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="language"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/visibility"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visibility"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/created_at"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="created_at"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/updated_at"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updated_at"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/pushed_at"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pushed_at"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/watchers"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="watchers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:fontFamily="sans-serif-medium"/>
+
+</LinearLayout>
